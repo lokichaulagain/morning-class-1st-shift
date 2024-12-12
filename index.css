@@ -1,0 +1,9 @@
+.testdiv {
+  display: flex;
+  gap: 10px;
+  border: 10px solid #ff0000;
+  padding: 50px;
+
+  /* margin gives space to outside of the box  */
+  margin: 1px 20px 30px 40px;
+}

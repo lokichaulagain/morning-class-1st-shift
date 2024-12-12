@@ -1,0 +1,32 @@
+body{
+    background-color: red;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, span{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.loki, .loki2{
+    color: green;
+}
+
+
+.parent{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./jellyfish.jpg");
+    /* background-position: no-repeat; */
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 1;
+    /* background-position: left; */
+
+}
