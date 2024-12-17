@@ -1,0 +1,96 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_list_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login_button {
+  border: none;
+  border-radius: 4px;
+  background-color: #ff8945;
+  padding: 8px 20px;
+  color: white;
+}
+.hero_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hero_section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero_section h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.hero_section p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.color_orange {
+  color: #ff8945;
+}
+
+.global_button {
+  padding: 10px 25px;
+  border-radius: 2px;
+  border: 1px solid #0a373d;
+}
+
+.button1 {
+  background-color: #0a373d;
+  color: white;
+}
+
+.dashboard_image_wrapper {
+  margin-top: 12px;
+  height: 50vh;
+  width: 60vw;
+  overflow: hidden;
+}
+
+.bg_banner {
+  background-image: url("./banner.jpg");
+  /* height: 100vh; */
+}
+
+.custom_wave {
+  position: absolute;
+  bottom: 0px;
+}
+
+.global_card_wrapper{
+    display: flex;
+    gap: 12px;
+}
+
+
+.global_card{
+    background: red;
+    border-radius: 4px;
+    height: 40vh;
+    width: 40vh;
+}
