@@ -82,15 +82,70 @@ body {
   bottom: 0px;
 }
 
-.global_card_wrapper{
-    display: flex;
-    gap: 12px;
+.all_images {
+  margin-top: 20vh;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
 
-
-.global_card{
-    background: red;
-    border-radius: 4px;
-    height: 40vh;
-    width: 40vh;
+.global_img {
+  height: 200px;
+  width: 200px;
 }
+
+.feature_section {
+  display: flex;
+}
+
+.feature_left_secion {
+  width: 50vw;
+}
+.feature_left_secion p {
+  color: #ff8945;
+  font-weight: 700;
+}
+
+.feature_left_secion h1 {
+  font-size: 70px;
+}
+
+.feature_right_section {
+  width: 50vw;
+}
+
+.two_card_parent {
+  display: flex;
+  gap: 20px;
+  
+
+}
+
+.global_card {
+  height: 20vh;
+  width: 20vw;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff89453a;
+}
+
+.feature_right_section{
+  display: flex;
+  gap: 20px;
+}
+
+.leftdiv{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.global_card_third_child{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
